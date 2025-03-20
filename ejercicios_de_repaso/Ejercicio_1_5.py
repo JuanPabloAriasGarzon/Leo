@@ -11,5 +11,5 @@ divisor=int(input("Ingrese el segundo numero"))
 #Calculo 
 cociente=dividendo/divisor
 residuo=dividendo%divisor
-divisor*cociente+residuo=dividendo
+
 print(f"La comprobacion de la vision es: {divisor} por {cociente} mas {residuo} es igual a {dividendo}")
