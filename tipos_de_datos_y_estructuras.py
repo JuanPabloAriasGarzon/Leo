@@ -131,3 +131,11 @@ lista1.append(20)
 
 #Acceder a un elemento de una lista
 # print(lista2[0][1])
+
+#sort 
+
+lista1.sort() #en este caso ordena ascendentemente
+# print(lista1)
+
+lista1.sort(reverse=True) #en este caso ordena descendentemente
+# print(lista1)
