@@ -139,3 +139,53 @@ lista1.sort() #en este caso ordena ascendentemente
 
 lista1.sort(reverse=True) #en este caso ordena descendentemente
 # print(lista1)
+
+'''
+diccionarios
+<class 'dict'>
+
+{ 'clave':'valor', 'clave2':'valor2', 'clave3':'valor3',,,,,}
+
+{
+   'clave':'valor',
+    'clave2':'valor2',
+}
+'''
+estudiantes={
+    'diana':25,
+    'juan':20,
+    'ana':29
+}
+
+# print(type(estudiantes))
+
+# print(estudiantes.keys())
+
+# print(estudiantes.values())
+
+#diccionarios pueden involcren otras estructuras
+instituto={
+    'robotica':['diana','juan','pedro'],
+    'programacion':['andres','luis','miguel']
+}
+
+# print(instituto.values())
+
+colegio={
+    'quimica':{'luisa':15,'jose':14},
+    'fisica':{'lina':14,'mario':17}
+}
+
+# print(colegio.values())
+
+distancias={
+    ('Palmira','Cali'):22,
+    ('Palmira','Pradera'):15
+}
+
+#actualizar el diccionario agregando una nueva clave y valor
+estudiantes['luisa']=45
+print(estudiantes)
+estudiantes['Juan']=18
+print(estudiantes)
+print(estudiantes.get('luisa'))
