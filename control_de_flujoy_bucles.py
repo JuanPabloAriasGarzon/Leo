@@ -5,7 +5,7 @@ se realiza la operacion de lo contario,
 se realiza otra operacion(opcionalmente)"
 '''
 
-x = 500
+x = 100
 y = 200
 #if x > y: #condicion
 #   print("x es mayor que y") #operacion
