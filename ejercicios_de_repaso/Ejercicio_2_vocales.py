@@ -12,4 +12,5 @@ contador_de_vocales=0
 for letra in palabra:
     if letra in vocales:
      contador_de_vocales+=1
+     
 print(contador_de_vocales)
