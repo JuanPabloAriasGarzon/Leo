@@ -2,11 +2,12 @@
 clasificar los dias de la semana
 '''
 
-dia=input("Ingrese un dia de la semana: ") 
+dia=input("Ingrese un dia de la semana: ").lower()
+
 match dia:
     case "martes" | "miercoles" | "jueves" | "viernes":
         print("Dia laboral")
-    case "lunes":
+    case "lunes" :
         print("Festivo")
     case "sabado" | "domingo":
         print("Fin de semana")
